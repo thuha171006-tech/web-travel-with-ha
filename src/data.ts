@@ -1,5 +1,5 @@
 import { Destination, Itinerary, CostBreakdown, Album, Comment } from './types';
-import HERO_BANNER_IMAGE from './assets/images/travel_ha_hero_1783601027636.jpg';
+const HERO_BANNER_IMAGE = '/anh-ha.jpg';
 
 export { HERO_BANNER_IMAGE };
 export const PROFILE_IMAGE = 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80';
@@ -10,7 +10,7 @@ export const DESTINATIONS: Destination[] = [
     name: 'Sa Pa',
     region: 'North',
     regionVi: 'Miền Bắc',
-    image: 'https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=1200&q=80',
+    image: '/anh-sapa.jpg',
     intro: 'Nằm ở phía Tây Bắc của Việt Nam, Sa Pa là một thị trấn vùng cao xinh đẹp ẩn chứa nhiều điều kỳ diệu của tự nhiên. Với khí hậu cận nhiệt đới ẩm và ôn đới mát mẻ quanh năm, nơi đây hấp dẫn du khách bởi những thửa ruộng bậc thang kỳ vĩ trải dài như những nấc thang lên thiên đường, những đỉnh núi mờ sương và nét văn hóa độc đáo của các đồng bào dân tộc thiểu số vùng cao.',
     bestTime: 'Tháng 9 - Tháng 11 (Mùa lúa chín vàng óng) hoặc Tháng 3 - Tháng 5 (Mùa hoa nở khoe sắc)',
     estimatedCost: '2.500.000đ - 4.500.000đ',
@@ -28,7 +28,7 @@ export const DESTINATIONS: Destination[] = [
     name: 'Hạ Long',
     region: 'North',
     regionVi: 'Miền Bắc',
-    image: 'https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1200&q=80',
+    image: '/anh-halong.jpg',
     intro: 'Vịnh Hạ Long được UNESCO công nhận là Di sản Thiên nhiên Thế giới với hàng ngàn hòn đảo đá vôi kỳ vĩ nhô lên từ làn nước màu xanh lục bảo. Đây là thiên đường nghỉ dưỡng tuyệt vời, nơi du khách có thể hòa mình vào không gian kỳ quan thiên nhiên, trải nghiệm du thuyền sang trọng xuyên qua các hòn đảo kỳ thú và khám phá những hang động thạch nhũ hàng triệu năm tuổi tuyệt mỹ.',
     bestTime: 'Tháng 4 - Tháng 6 (Thời tiết nắng ấm hoàn hảo để tắm biển) hoặc Tháng 9 - Tháng 11',
     estimatedCost: '3.000.000đ - 6.000.000đ',
@@ -46,7 +46,7 @@ export const DESTINATIONS: Destination[] = [
     name: 'Đà Lạt',
     region: 'South',
     regionVi: 'Miền Nam',
-    image: 'https://images.unsplash.com/photo-1611637576109-b6f76185ec9b?auto=format&fit=crop&w=1200&q=80',
+    image: '/anh-dalat.jpg',
     intro: 'Được mệnh danh là "Thành phố ngàn hoa" hay "Thành phố sương mù", Đà Lạt là điểm đến lãng mạn nằm trên cao nguyên Lâm Viên mát mẻ quanh năm. Với rừng thông xanh bạt ngàn, những ngôi biệt thự kiến trúc Pháp cổ kính, những đồi chè ẩn hiện trong sương mờ và những quán cà phê mang phong cách cực thơ, Đà Lạt luôn là chốn bình yên để chữa lành và thư giãn tâm hồn.',
     bestTime: 'Tháng 11 - Tháng 3 (Mùa hoa dã quỳ nở rộ, thời tiết se lạnh, trời hanh khô rất lãng mạn)',
     estimatedCost: '2.000.000đ - 4.000.000đ',
@@ -64,7 +64,7 @@ export const DESTINATIONS: Destination[] = [
     name: 'Hội An',
     region: 'Central',
     regionVi: 'Miền Trung',
-    image: 'https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=1200&q=80',
+    image: '/anh-hoian.jpg',
     intro: 'Hội An là một đô thị cổ kính nằm ở hạ lưu sông Thu Bồn, nơi thời gian như ngừng lại trên những bức tường vàng rêu phong, những mái ngói âm dương xám màu và hàng trăm chiếc đèn lồng thủ công rực rỡ sắc màu về đêm. Nơi đây từng là thương cảng quốc tế sầm uất thế kỷ 17, giao thoa tinh hoa văn hóa Việt - Hoa - Nhật - Tây phương độc đáo.',
     bestTime: 'Tháng 2 - Tháng 4 (Thời tiết mát mẻ, trời nắng dịu, nước sông Thu Bồn trong vắt hiền hòa)',
     estimatedCost: '2.200.000đ - 4.200.000đ',
@@ -82,7 +82,7 @@ export const DESTINATIONS: Destination[] = [
     name: 'Phú Quốc',
     region: 'South',
     regionVi: 'Miền Nam',
-    image: 'https://images.unsplash.com/photo-1583212292454-1fe6229603b7?auto=format&fit=crop&w=1200&q=80',
+    image: '/anh-phuquoc.jpg',
     intro: 'Đảo Ngọc Phú Quốc là hòn đảo lớn nhất Việt Nam, nằm trong vịnh Thái Lan với vẻ đẹp hoang sơ tựa thiên đường hạ giới. Nơi đây nổi tiếng với những bãi cát trắng mịn như kem ôm lấy làn nước màu xanh ngọc lam trong vắt, những rặng san hô sặc sỡ đầy sức sống dưới đáy đại dương và những hoàng hôn rực sắc cam đỏ buông xuống biển rộng tuyệt mỹ.',
     bestTime: 'Tháng 11 - Tháng 4 (Mùa khô, biển lặng sóng êm, làn nước mát lành xanh ngắt vô cùng lý tưởng)',
     estimatedCost: '3.500.000đ - 7.000.000đ',
@@ -100,7 +100,7 @@ export const DESTINATIONS: Destination[] = [
     name: 'Ninh Bình',
     region: 'North',
     regionVi: 'Miền Bắc',
-    image: 'https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=1200&q=80',
+    image: '/anh-ninhbinh.jpg',
     intro: 'Nằm cách Hà Nội khoảng 90km, Ninh Bình được mệnh danh là "Vịnh Hạ Long trên cạn" với cảnh quan karst thạch đá vôi hùng vĩ dựng đứng đan xen giữa những đồng lúa uốn lượn hiền hòa và dòng suối nhỏ xanh mướt. Đây là vùng đất linh thiêng cố đô, giao hòa hoàn hảo giữa lịch sử hào hùng ngàn năm và cảnh sắc thiên nhiên kỳ quan hoang sơ thanh bình.',
     bestTime: 'Tháng 5 - Tháng 6 (Mùa lúa chín vàng óng dọc hai bên dòng sông Ngô Đồng) hoặc Tháng 1 - Tháng 3 (Mùa lễ hội tâm linh xuân ấm)',
     estimatedCost: '1.500.000đ - 2.800.000đ',
