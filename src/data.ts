@@ -2,7 +2,7 @@ import { Destination, Itinerary, CostBreakdown, Album, Comment } from './types';
 const HERO_BANNER_IMAGE = '/anh-ha.jpg';
 
 export { HERO_BANNER_IMAGE };
-export const PROFILE_IMAGE = '/anh-ha.jpg';
+export const PROFILE_IMAGE = '/anh-toi.jpg';
 
 export const DESTINATIONS: Destination[] = [
   {
