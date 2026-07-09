@@ -321,49 +321,49 @@ export const ALBUMS: Album[] = [
   {
     id: 'album-halong',
     name: 'Tuyệt Tác Vịnh Hạ Long',
-    coverImage: 'https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=600&q=80',
+    coverImage: '/halong-hoanghon.jpg',
     description: 'Khoảnh khắc kỳ quan thiên nhiên thế giới rực rỡ với làn nước màu lục bảo kỳ vĩ soi bóng hàng ngàn đảo đá karst cổ xưa hoành tráng.',
     photos: [
-      { id: 'hl-1', albumId: 'album-halong', url: 'https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1200&q=80', caption: 'Hoàng hôn dát vàng óng ánh trên làn nước Vịnh Hạ Long bình yên.', location: 'Vịnh Hạ Long' },
-      { id: 'hl-2', albumId: 'album-halong', url: 'https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1200&q=80', caption: 'Du thuyền rẽ sóng lướt nhẹ qua những hòn đảo karst sừng sững.', location: 'Hòn Trống Mái' },
-      { id: 'hl-3', albumId: 'album-halong', url: 'https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1200&q=80', caption: 'Trải nghiệm du ngoạn ngắm vách đá karst hoang sơ mát rượi.', location: 'Hang Luồn' },
-      { id: 'hl-4', albumId: 'album-halong', url: 'https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1200&q=80', caption: 'Góc nhìn mộng mơ bao trọn vịnh đảo đón gió mát lành từ boong tàu.', location: 'Vịnh Hạ Long' }
+      { id: 'hl-1', albumId: 'album-halong', url: '/halong-hoanghon.jpg', caption: 'Hoàng hôn dát vàng óng ánh trên làn nước Vịnh Hạ Long bình yên.', location: 'Vịnh Hạ Long' },
+      { id: 'hl-2', albumId: 'album-halong', url: '/halong-duthuyen.jpg', caption: 'Du thuyền rẽ sóng lướt nhẹ qua những hòn đảo karst sừng sững.', location: 'Hòn Trống Mái' },
+      { id: 'hl-3', albumId: 'album-halong', url: '/halong-hangluon.jpg', caption: 'Trải nghiệm du ngoạn ngắm vách đá karst hoang sơ mát rượi.', location: 'Hang Luồn' },
+      { id: 'hl-4', albumId: 'album-halong', url: '/halong-boongtau.jpg', caption: 'Góc nhìn mộng mơ bao trọn vịnh đảo đón gió mát lành từ boong tàu.', location: 'Vịnh Hạ Long' }
     ]
   },
   {
     id: 'album-dalat',
     name: 'Đà Lạt - Phố Sương Và Hoa',
-    coverImage: 'https://images.unsplash.com/photo-1611637576109-b6f76185ec9b?auto=format&fit=crop&w=600&q=80',
+    coverImage: '/dalat-doiche.jpg',
     description: 'Nơi mây mù sương phủ quấn quýt rừng thông bạt ngàn, những dải hoa tú cầu nở rộ lãng mạn vô bờ bến ôm trọn từng dốc nhỏ.',
     photos: [
-      { id: 'dl-1', albumId: 'album-dalat', url: 'https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=1200&q=80', caption: 'Đồi chè Cầu Đất mướt mát chìm đắm trong sương sớm bình minh lung linh.', location: 'Đồi chè Cầu Đất' },
-      { id: 'dl-2', albumId: 'album-dalat', url: 'https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&w=1200&q=80', caption: 'Rừng thông xanh ngắt cao vút rì rào trong nắng ấm chiều rực rỡ.', location: 'Đường đi Trại Mát' },
-      { id: 'dl-3', albumId: 'album-dalat', url: 'https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=1200&q=80', caption: 'Quán cà phê mộc mạc yên bình view hướng thẳng thung lũng mộng mơ.', location: 'Quán của Thời Thanh Xuân' },
-      { id: 'dl-4', albumId: 'album-dalat', url: 'https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?auto=format&fit=crop&w=1200&q=80', caption: 'Vườn hoa cẩm tú cầu xanh biếc khổng lồ ngậm sương tinh khiết.', location: 'Trại Mát' }
+      { id: 'dl-1', albumId: 'album-dalat', url: '/dalat-doiche.jpg', caption: 'Đồi chè Cầu Đất mướt mát chìm đắm trong sương sớm bình minh lung linh.', location: 'Đồi chè Cầu Đất' },
+      { id: 'dl-2', albumId: 'album-dalat', url: '/dalat-rungthong.jpg', caption: 'Rừng thông xanh ngắt cao vút rì rào trong nắng ấm chiều rực rỡ.', location: 'Đường đi Trại Mát' },
+      { id: 'dl-3', albumId: 'album-dalat', url: '/dalat-quancafe.jpg', caption: 'Quán cà phê mộc mạc yên bình view hướng thẳng thung lũng mộng mơ.', location: 'Quán của Thời Thanh Xuân' },
+      { id: 'dl-4', albumId: 'album-dalat', url: '/dalat-hoacamtucau.jpg', caption: 'Vườn hoa cẩm tú cầu xanh biếc khổng lồ ngậm sương tinh khiết.', location: 'Trại Mát' }
     ]
   },
   {
     id: 'album-hoian',
     name: 'Hội An - Hoài Cổ Từng Góc Nhỏ',
-    coverImage: 'https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=600&q=80',
+    coverImage: '/hoian-hoagiay.jpg',
     description: 'Nét rêu phong cổ kính trên bức tường vàng nhuốm màu thời gian, ánh lồng đèn lung linh huyền ảo tỏa rạng bến sông hoài cổ mộng mơ.',
     photos: [
-      { id: 'ha-1', albumId: 'album-hoian', url: 'https://images.unsplash.com/photo-1601918774946-25832a4be0d6?auto=format&fit=crop&w=1200&q=80', caption: 'Bức tường vàng rực rỡ đặc trưng lấp ló giàn hoa giấy rủ xuống duyên dáng.', location: 'Phố cổ Hội An' },
-      { id: 'ha-2', albumId: 'album-hoian', url: 'https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=1200&q=80', caption: 'Phố cổ về đêm rực rỡ trong ánh đèn lồng thắp sáng kỳ ảo khắp ngả đường.', location: 'Cầu đèn lồng' },
-      { id: 'ha-3', albumId: 'album-hoian', url: 'https://images.unsplash.com/photo-1601918774946-25832a4be0d6?auto=format&fit=crop&w=1200&q=80', caption: 'Thuyền mộc mạc trôi lững lờ trên sông Thu Bồn đón nắng dịu.', location: 'Sông Thu Bồn' },
-      { id: 'ha-4', albumId: 'album-hoian', url: 'https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=1200&q=80', caption: 'Dòng sông Hoài đêm yên ả lấp lánh lung linh ánh sáng phản chiếu kì diệu.', location: 'Bến sông Hoài' }
+      { id: 'ha-1', albumId: 'album-hoian', url: '/hoian-hoagiay.jpg', caption: 'Bức tường vàng rực rỡ đặc trưng lấp ló giàn hoa giấy rủ xuống duyên dáng.', location: 'Phố cổ Hội An' },
+      { id: 'ha-2', albumId: 'album-hoian', url: '/hoian-denlong.jpg', caption: 'Phố cổ về đêm rực rỡ trong ánh đèn lồng thắp sáng kỳ ảo khắp ngả đường.', location: 'Cầu đèn lồng' },
+      { id: 'ha-3', albumId: 'album-hoian', url: '/hoian-song.jpg', caption: 'Thuyền mộc mạc trôi lững lờ trên sông Thu Bồn đón nắng dịu.', location: 'Sông Thu Bồn' },
+      { id: 'ha-4', albumId: 'album-hoian', url: '/hoian-songhoai.jpg', caption: 'Dòng sông Hoài đêm yên ả lấp lánh lung linh ánh sáng phản chiếu kì diệu.', location: 'Bến sông Hoài' }
     ]
   },
   {
     id: 'album-phuquoc',
     name: 'Thiên Đường Đảo Ngọc Phú Quốc',
-    coverImage: 'https://images.unsplash.com/photo-1583212292454-1fe6229603b7?auto=format&fit=crop&w=600&q=80',
+    coverImage: '/phuquoc-baitruong.jpg',
     description: 'Bờ cát trắng phau mịn như nhung ôm trọn lấy đại dương ngọc bích lấp lánh dưới ánh chiều đỏ tía tuyệt diệu bậc nhất.',
     photos: [
-      { id: 'pq-1', albumId: 'album-phuquoc', url: 'https://images.unsplash.com/photo-1583212292454-1fe6229603b7?auto=format&fit=crop&w=1200&q=80', caption: 'Hoàng hôn biển đỏ rực rỡ buông xuống mênh mông bãi biển hoang sơ tuyệt mỹ.', location: 'Bãi Trường' },
-      { id: 'pq-2', albumId: 'album-phuquoc', url: 'https://images.unsplash.com/photo-1540206351-d6465b3ac5c1?auto=format&fit=crop&w=1200&q=80', caption: 'Rặng dừa đổ dốc ôm dải cát trắng tinh khôi dưới bóng mây bồng bềnh.', location: 'Bãi Sao' },
-      { id: 'pq-3', albumId: 'album-phuquoc', url: 'https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=1200&q=80', caption: 'Làn nước trong thấu đáy tại hòn Móng Tay tha hồ tung tăng bơi lội.', location: 'Hòn Móng Tay' },
-      { id: 'pq-4', albumId: 'album-phuquoc', url: 'https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1200&q=80', caption: 'Khu resort yên bình nép mình dưới rặng dừa xanh mướt mát lạnh đón gió.', location: 'Nam Đảo' }
+      { id: 'pq-1', albumId: 'album-phuquoc', url: '/phuquoc-baitruong.jpg', caption: 'Hoàng hôn biển đỏ rực rỡ buông xuống mênh mông bãi biển hoang sơ tuyệt mỹ.', location: 'Bãi Trường' },
+      { id: 'pq-2', albumId: 'album-phuquoc', url: '/phuquoc-baisao.jpg', caption: 'Rặng dừa đổ dốc ôm dải cát trắng tinh khôi dưới bóng mây bồng bềnh.', location: 'Bãi Sao' },
+      { id: 'pq-3', albumId: 'album-phuquoc', url: '/phuquoc-honmongtay.jpg', caption: 'Làn nước trong thấu đáy tại hòn Móng Tay tha hồ tung tăng bơi lội.', location: 'Hòn Móng Tay' },
+      { id: 'pq-4', albumId: 'album-phuquoc', url: '/phuquoc-resort.jpg', caption: 'Khu resort yên bình nép mình dưới rặng dừa xanh mướt mát lạnh đón gió.', location: 'Nam Đảo' }
     ]
   }
 ];
