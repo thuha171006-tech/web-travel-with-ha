@@ -1,0 +1,6 @@
+{
+  "name": "Travel With Hà",
+  "description": "Blog chia sẻ kinh nghiệm du lịch cá nhân của Hà, gợi ý lịch trình, địa điểm và chi phí tham khảo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
